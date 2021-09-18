@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#main {
+    background-color: rgb(149, 217, 230);
+}
+.navbar-brand {
+    letter-spacing: 5px;
+}
+#section_1 .about {
+    margin-left: 40%;
+}
+
+.services {
+    list-style: square;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.default {
+    color: black !important;
+}
+.default_bg {
+    background: #1e272e !important;
+}
+th,
+label {
+    font-weight: normal !important;
+}
+
+.course_desc:hover {
+    font-weight: 500 !important;
+    cursor: pointer !important;
+}
+
+.btn-fab {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    position: fixed;
+    bottom: 64px;
+    right: 64px;
+    border-radius: 50%;
+    color: white;
+    background-color: #28272b;
+    cursor: pointer;
+    display: none;
+}
